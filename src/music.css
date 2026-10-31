@@ -1,0 +1,14 @@
+.music-setting{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:24px}
+.music-setting label{display:block;font-size:13px;cursor:pointer}
+.music-setting small{display:block;font-size:10px;line-height:1.8;color:#a1896b;margin-top:6px}
+.music-switch{appearance:none;-webkit-appearance:none;flex:none;width:43px;height:25px;margin:0;border:1px solid #d3bda0;border-radius:20px;background:#e7dacc;cursor:pointer;position:relative;transition:background .18s}
+.music-switch::after{content:"";position:absolute;left:3px;top:3px;width:17px;height:17px;border-radius:50%;background:#fffaf1;box-shadow:0 1px 4px #59422c26;transition:transform .18s}
+.music-switch:checked{background:#b59466;border-color:#b59466}
+.music-switch:checked::after{transform:translateX(18px)}
+.music-switch:focus-visible{outline:2px solid #bc925f;outline-offset:4px}
+.music-status{font-size:10px;line-height:1.8;color:#9a896d;margin:10px 0 18px;min-height:18px}
+.settings-section.music-section h3{margin-bottom:19px}
+body[data-theme=night] .music-setting small,body[data-theme=night] .music-status{color:#a9c0d3}
+body[data-theme=night] .music-switch{background:#3c5268;border-color:#60788c}
+body[data-theme=night] .music-switch:checked{background:#b8b391;border-color:#b8b391}
+@media(prefers-reduced-motion:reduce){.music-switch,.music-switch::after{transition:none}}

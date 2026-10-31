@@ -1,0 +1,29 @@
+.photo-controls{flex-shrink:0;display:flex;justify-content:space-between;align-items:center;gap:12px;margin:0 4px 10px;padding:9px 12px;border:1px solid #c5dce8;border-radius:13px;background:#f6fcff;color:#7795a4}
+.photo-wavelengths{display:flex;align-items:center;gap:6px;font-size:10px}
+.photo-wavelengths button{border:1px solid #d3e2ea;background:#fff;border-radius:8px;padding:6px 10px;font-size:11px;display:flex;gap:4px;align-items:center}
+.photo-wavelengths button::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--band)}
+.photo-wavelengths small{font-size:9px;color:#92a5ad}
+.photo-wavelengths button[aria-pressed=true]{border-color:var(--band);box-shadow:inset 0 -2px var(--band);background:#f0f7fc}
+.photo-intensity-label{display:flex;align-items:center;gap:8px;font-size:10px;white-space:nowrap}
+.photo-intensity-label input{width:110px;margin:0;accent-color:#83a9b9}.photo-intensity-label output{min-width:31px;text-align:right;font-size:10px}
+.photoelectric-status{margin:9px 0;padding:10px;border:1px solid #cfdfdf;border-radius:12px;background:#f3fbf7;color:#6c8f8c}
+.photoelectric-status>div{display:flex;justify-content:space-between;gap:6px;padding:4px 0;font-size:10px}.photoelectric-status b{font-weight:500;white-space:nowrap}.photoelectric-status span{text-align:right;color:#789480}
+.photoelectric-status p{font-size:9px;line-height:1.7;margin:7px 0 0;color:#94a5a7}
+.photoelectric-level .world-label{font-size:9px;padding:3px 5px}
+.photoelectric-level .inventory-items{flex-shrink:0}
+.photoelectric-level.compact-inventory .inventory-row{flex-wrap:nowrap;min-height:44px;padding:5px;gap:4px}
+.photoelectric-level.compact-inventory .inventory-count{width:auto;flex-shrink:0;margin-left:auto;font-size:8px}.photoelectric-level.compact-inventory .inventory-count b{font-size:14px}
+.photoelectric-level.compact-inventory .inventory-name{min-width:0}.photoelectric-level.compact-inventory .inventory-name strong{font-size:9px;white-space:normal}.photoelectric-level.compact-inventory .inventory-name small{font-size:7px}
+.photoelectric-level .hint-content{max-height:70%;overflow:auto}
+@media(min-width:851px) and (max-height:850px){
+ .photoelectric-level .sidebar{gap:9px}.photoelectric-level .receiver-card{padding:10px 13px}.photoelectric-level .energy-gauge{width:66px;height:66px}
+ .photoelectric-level .inventory-card{flex-shrink:0;min-height:228px;padding:10px 12px}.photoelectric-level .inventory-instruction{font-size:9px;margin:5px 0}.photoelectric-level.compact-inventory .inventory-row{min-height:37px;padding:4px}
+ .photoelectric-level .return-zone{min-height:28px;margin-top:7px}.photoelectric-level .journey-card{padding:10px 12px}.photoelectric-status{padding:7px;margin:6px 0}.photoelectric-status>div{padding:3px 0}.photoelectric-status p{font-size:8px;margin-top:4px}.photoelectric-level .steps{display:none}.photoelectric-level .journey-card h3{font-size:11px}.photoelectric-level .hint-button{margin-top:7px}
+}
+@media(max-width:850px){
+ .photo-controls{margin:0 0 7px;padding:7px 9px;gap:7px;flex-wrap:wrap}.photo-wavelengths{gap:4px;font-size:8px}.photo-wavelengths button{padding:5px 6px;font-size:9px;gap:3px}.photo-wavelengths small{font-size:7px}
+ .photo-intensity-label{gap:6px;font-size:9px}.photo-intensity-label input{width:96px}.photo-intensity-label output{font-size:9px}
+ .photoelectric-status{padding:6px;margin:5px 0}.photoelectric-status>div{font-size:8px;gap:2px;padding:3px 0}.photoelectric-status span{font-size:7px}.photoelectric-status p{display:none}.photoelectric-level .steps{display:none}.photoelectric-level .journey-card{padding:8px 7px}.photoelectric-level .journey-card h3{font-size:9px}.photoelectric-level .tiny-count{white-space:nowrap}.photoelectric-level .hint-button{margin-top:5px;padding:5px 3px;font-size:8px}.photoelectric-level .world-label{font-size:7px;padding:2px 3px}
+ .photoelectric-level.compact-inventory .inventory-row{min-height:40px}.photoelectric-level .journey-card{overflow:auto}
+}
+@media(max-width:500px){.photo-controls{padding:5px 7px;gap:5px}.photo-wavelengths{width:100%;justify-content:space-between}.photo-wavelengths button{padding:4px 5px}.photo-intensity-label{width:100%;justify-content:center}.photo-intensity-label input{width:145px}.photoelectric-level .inventory-name strong{font-size:8px!important}.photoelectric-level .world-label{font-size:6px}}

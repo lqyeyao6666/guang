@@ -1,0 +1,9 @@
+node_modules/
+dist/
+qa/
+*.log
+.backups/
+backups/
+music-preview/
+sites/
+videos/

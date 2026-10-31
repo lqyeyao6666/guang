@@ -1,0 +1,39 @@
+{
+  "name": "warm-light-path",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "node scripts/serve.mjs",
+    "check:optics": "node scripts/check-optics.mjs && node scripts/check-spectrum-optics.mjs && node scripts/check-fusion-optics.mjs && node scripts/check-cube-optics.mjs && node scripts/check-school-optics.mjs && node scripts/check-refraction-optics.mjs && node scripts/check-photoelectric-optics.mjs && node scripts/check-quantum-optics.mjs",
+    "check:cube": "node scripts/check-cube-optics.mjs && node scripts/check-cube.mjs",
+    "check:spectrum": "node scripts/check-spectrum-optics.mjs && node scripts/check-spectrum.mjs",
+    "check:browser": "node scripts/check-browser.mjs",
+    "check:start": "node scripts/check-start-screen.mjs",
+    "check:hud": "node scripts/check-hud.mjs",
+    "check:progress": "node scripts/check-progress.mjs",
+    "check:story": "node scripts/check-storybook.mjs",
+    "check:music": "node scripts/check-music.mjs",
+    "check:sfx": "node scripts/check-sfx.mjs",
+    "check:crossing": "node scripts/check-crossing.mjs",
+    "check:street": "node scripts/check-street-motion.mjs && node scripts/check-street.mjs",
+    "check:forest": "node scripts/check-forest-optics.mjs && node scripts/check-forest.mjs",
+    "check:rural": "node scripts/check-rural-optics.mjs && node scripts/check-rural-crowd.mjs && node scripts/check-rural.mjs",
+    "check:fusion": "node scripts/check-fusion-optics.mjs && node scripts/check-fusion.mjs",
+    "check:school": "node scripts/check-school-optics.mjs && node scripts/check-school.mjs",
+    "check:refraction": "node scripts/check-refraction-optics.mjs && node scripts/check-refraction.mjs",
+    "check:photoelectric": "node scripts/check-photoelectric-optics.mjs && node scripts/check-photoelectric.mjs",
+    "check:quantum": "node scripts/check-quantum-optics.mjs && node scripts/check-quantum.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.186.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.5",
+    "playwright": "1.64.1"
+  }
+}

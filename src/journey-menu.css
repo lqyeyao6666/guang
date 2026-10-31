@@ -1,0 +1,23 @@
+#levels-dialog{width:850px;background:#fffaf2;color:#69513c;overscroll-behavior:contain;scrollbar-width:thin}
+#levels-dialog::backdrop{background:#28344177;backdrop-filter:none}
+#levels-dialog .close-button{font-size:26px;flex-shrink:0}
+.journey-progress{font-size:12px;color:#9a7851;margin:15px 0 8px}
+.level-access-note{font-size:12px;line-height:1.8;color:#9a7851}.level-access-note:empty{display:none}
+.chapter-levels{display:grid;gap:24px;margin-top:24px}
+.chapter-levels h3{display:flex;align-items:center;gap:11px;font-size:16px;font-weight:500;margin-bottom:10px}
+.chapter-levels h3>small{font-size:10px;color:#a89073}
+.chapter-level-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.chapter-level-grid button{display:flex;align-items:center;gap:12px;text-align:left;border:1px solid #e6d8c2;border-radius:12px;background:#fffdf8;min-height:65px;padding:12px}
+.level-index{font-size:20px;color:#b28c60;font-variant-numeric:tabular-nums}
+.level-card-copy{flex:1;min-width:0}.level-card-copy strong{display:block;font-size:13px;font-weight:500;line-height:1.6}.level-card-copy small{display:block;color:#9b896f;font-size:10px;margin-top:3px}
+.level-card-state{font-size:10px;color:#aa7d44;white-space:nowrap}
+.chapter-level-grid button[data-status=complete]{border-color:#cbdac1;background:#f6f9f0}.chapter-level-grid button[data-status=complete] .level-card-state{color:#719064}
+.chapter-level-grid button:disabled{cursor:default;background:#f1ede6;color:#a69d90;border-color:#e5dfd4}.chapter-level-grid button:disabled .level-index,.chapter-level-grid button:disabled .level-card-state{color:#a69d90}
+.journey-storage-note{margin-top:22px;font-size:11px;line-height:1.8;color:#9b896f}
+.debug-tools summary{cursor:pointer;font-size:12px;color:inherit}.debug-tools label{display:block;font-size:12px;margin:15px 0 8px}
+.debug-password-row{display:flex;gap:8px}.debug-password-row input,.debug-password-row select{min-width:0;width:100%;border:1px solid #cfbfa6;border-radius:8px;padding:9px;background:#fffdf8;color:#69513c;font:inherit;font-size:12px}.debug-password-row button{flex-shrink:0}
+.debug-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.debug-actions button{font-size:11px}
+.debug-reset-note{font-size:10px;line-height:1.8;margin-top:8px;opacity:.75}
+.debug-message,.debug-help,#reset-progress-confirm p{font-size:11px;line-height:1.8;margin-top:13px}.debug-message:empty{display:none}
+#reset-progress-confirm{margin-top:13px;padding:10px;border:1px solid #c69d77;border-radius:10px}#reset-progress-confirm p{margin:0}
+@media(max-width:600px){.chapter-level-grid{grid-template-columns:1fr}.chapter-levels{gap:20px}.chapter-level-grid button{min-height:60px}.level-card-copy strong{font-size:12px}#levels-dialog{padding:20px}}

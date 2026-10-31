@@ -1,0 +1,54 @@
+{
+  "version": 4,
+  "source": "Three locally packaged CC0 1.0 recordings; see CREDITS.txt.",
+  "tracks": [
+    {
+      "chapter": 1,
+      "title": "暖阳琴声 · Calm Piano 1",
+      "creator": "The Cynic Project / cynicmusic",
+      "license": "CC0 1.0",
+      "sourcePage": "https://opengameart.org/content/calm-piano-1-vaporware",
+      "file": "chapter-1-vaporware.mp3",
+      "loopSeconds": 158.95455782312925,
+      "source": "music-preview/github/chapter-1-calm-piano-vaporware.mp3",
+      "preparation": "44.1 kHz stereo MP3 at 128k; normalized to -19 LUFS and below -2 dBTP; 6s circular crossfade for a continuous loop.",
+      "seamSampleStep": 0.0006222277879714966,
+      "integratedLufs": -19.46,
+      "truePeakDbtp": -3.42,
+      "fullDecode": "passed",
+      "sha256": "8ff10a91f069eeb6420fb6c2afba39c85bae1bd6a3550b472b11efa8ffcf4fd6"
+    },
+    {
+      "chapter": 2,
+      "title": "梦境薄云 · Heavenly Loop",
+      "creator": "isaiah658",
+      "license": "CC0 1.0",
+      "sourcePage": "https://opengameart.org/content/heavenly-loop",
+      "file": "chapter-2-heavenly-loop.mp3",
+      "loopSeconds": 33.65249433106576,
+      "source": "music-preview/github/heavenly-loop-isaiah658.ogg",
+      "preparation": "44.1 kHz stereo MP3 at 128k; normalized to -19 LUFS and below -2 dBTP; source seamless loop retained.",
+      "seamSampleStep": 0.0016440069302916527,
+      "integratedLufs": -19.44,
+      "truePeakDbtp": -7.48,
+      "fullDecode": "passed",
+      "sha256": "08647bd968cac07320be853539d8f25f9c3bfa28a0fa564ec1f6f71dc1d869cd"
+    },
+    {
+      "chapter": 3,
+      "title": "安静色谱 · Calm Ambient 1",
+      "creator": "The Cynic Project / cynicmusic",
+      "license": "CC0 1.0",
+      "sourcePage": "https://opengameart.org/content/calm-ambient-1-synthwave-4k",
+      "file": "chapter-3-calm-ambient-1.mp3",
+      "loopSeconds": 151.89569160997732,
+      "source": "music-preview/github/chapter-3-calm-ambient-1.mp3",
+      "preparation": "44.1 kHz stereo MP3 at 128k; normalized to -19 LUFS and below -2 dBTP; 6s circular crossfade for a continuous loop.",
+      "seamSampleStep": 0.00044340360909700394,
+      "integratedLufs": -19.5,
+      "truePeakDbtp": -2.54,
+      "fullDecode": "passed",
+      "sha256": "24738c159f084b3dd44bb69b3a84f0bb1924b8c651b9d35a6f1b79abf43e1ec1"
+    }
+  ]
+}

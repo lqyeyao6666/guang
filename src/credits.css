@@ -1,0 +1,20 @@
+.credits-section summary{font-size:12px;cursor:pointer;color:inherit}
+.credits-body{margin-top:18px}
+.creator-credit{padding:15px 17px;border:1px solid #c3a47b55;border-radius:13px;background:#c3a47b0d}
+.creator-credit>span{display:block;font-size:10px;letter-spacing:1px;opacity:.7}
+.creator-credit>strong{display:block;font-size:25px;font-weight:500;letter-spacing:4px;margin-top:8px}
+.creator-credit>p{font-size:10px;margin-top:6px;opacity:.7}
+.credits-section .credits-body>h3{font-size:12px;font-weight:500;margin:23px 0 12px;color:inherit}
+.music-credits{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.music-credits>li{min-width:0;border:1px solid #c3a47b44;border-radius:11px;padding:12px 13px}
+.credit-chapter{display:block;font-size:9px;opacity:.65;letter-spacing:.6px}
+.music-credits h4{font-size:12px;font-weight:500;line-height:1.6;margin:6px 0 3px;overflow-wrap:anywhere}
+.credit-author{font-size:10px;line-height:1.8;opacity:.8}
+.credit-source{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;margin-top:10px;font-size:10px}
+.credit-source>span{font-size:8px;letter-spacing:.5px;padding:3px 6px;border:1px solid #c3a47b55;border-radius:5px;opacity:.75}
+.credits-section a{color:inherit;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.credits-section a:hover{opacity:.75}
+.credits-section a:focus-visible{outline:2px solid currentColor;outline-offset:4px;border-radius:2px}
+.credits-thanks,.credits-attribution{font-size:10px;line-height:1.9;opacity:.7}
+.credits-thanks{margin-top:17px}.credits-attribution{margin-top:5px}
+@media(max-width:500px){.music-credits>li{padding:11px}.credits-attribution{font-size:9px}}

@@ -1,0 +1,21 @@
+暖光小径 · 章节背景音乐
+========================
+
+三首音乐均按 OpenGameArt 单曲页面标注，以 CC0 1.0 提供。运行版只包含本地音乐文件，不会联网加载素材。
+
+第一章 — Calm Piano 1 (Vaporware)
+作者：The Cynic Project / cynicmusic
+作品页：https://opengameart.org/content/calm-piano-1-vaporware
+作者希望署名：The Cynic Project / cynicmusic.com / pixelsphere.org
+
+第二章 — Heavenly Loop
+作者：isaiah658
+作品页：https://opengameart.org/content/heavenly-loop
+作者表示署名可选，欢迎致谢。
+
+第三章 — Calm Ambient 1 (Synthwave 4k)
+作者：The Cynic Project / cynicmusic
+作品页：https://opengameart.org/content/calm-ambient-1-synthwave-4k
+作者希望署名：The Cynic Project / cynicmusic.com / pixelsphere.org
+
+本项目对音源做了响度统一；第一、三章的运行版另做了循环交叉淡化。游戏内 MP3 运行版为 128 kbps 立体声，以减少玩家下载量。完整来源、试听原件与运行版校验值见项目目录 music-preview/github/SOURCE.md 和 public/music/tracks.json。

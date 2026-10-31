@@ -1,0 +1,32 @@
+.cube-controls{flex-shrink:0;margin:0 4px 9px;padding:9px 11px;border:1px solid #e2ceb0;border-radius:13px;background:#fff9ed;color:#907354}
+body.cube-level .level-heading{display:block;margin-bottom:10px}
+body.cube-level .level-heading h2{font-size:30px}
+body.cube-level .level-navigation{margin:9px 0 0;width:fit-content;max-width:100%}
+.level-heading{flex-wrap:wrap;gap:9px}
+.level-navigation{margin-left:0;max-width:100%}
+.cube-face-buttons{display:flex;gap:5px;flex-wrap:wrap;align-items:center}
+.cube-face-buttons button{display:flex;gap:7px;align-items:center;border:1px solid #e8dac5;border-radius:8px;padding:8px 12px;font-size:11px;background:#fffdf5;white-space:nowrap}
+.cube-face-buttons button i{font-size:9px;color:#b5a68d;font-style:normal}
+.cube-face-buttons button.active{background:#f0e1c7;border-color:#c6a16e;color:#855c33}
+.cube-face-buttons button.arrived i{color:#729365}
+.cube-face-buttons #cube-guide{border-radius:50%;width:26px;height:26px;padding:0;justify-content:center}
+.cube-control-note{display:flex;justify-content:space-between;gap:7px;align-items:center;margin-top:7px;font-size:9px;color:#a18a6a}
+.cube-control-note button{padding:3px 7px;border:1px dashed #d9c8ad;border-radius:6px;font-size:9px;white-space:nowrap}
+.cube-controls.guide-target{position:relative;z-index:52;background:#fffaf0;box-shadow:0 0 0 4px #fff8e8,0 0 0 6px #d3a369,0 8px 28px #79552d25}
+.cube-status{margin-top:10px;padding:9px;border:1px solid #e3dbc5;border-radius:10px;background:#f8f5e8}
+.cube-status>div:first-child{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:10px;color:#95835d}
+.cube-status b{font-weight:500;font-size:12px;color:#9b8053}
+.cube-progress-faces{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;margin-top:8px}
+.cube-progress-faces button{display:flex;flex-direction:column;align-items:flex-start;gap:3px;border:1px solid #e4dbc5;background:#fffcf3;border-radius:6px;padding:5px 6px;font-size:9px}
+.cube-progress-faces small{font-size:8px;color:#b09d7d}
+.cube-progress-faces .passed{border-color:#d4b57c}
+.cube-progress-faces .arrived{background:#eef3e4;border-color:#bfceae;color:#759064}
+.cube-progress-faces .arrived small{color:#7b956d}
+.coreMirror .item-thumbnail{background:#e6ecdf;border-color:#cdd9bf;color:#91a07b}
+/* Keep the expanded chapter navigation in two rows on phones, leaving room for the board. */
+@media(max-width:500px){.level-navigation button{padding:6px 4px!important;font-size:8px;gap:2px}.level-navigation small{font-size:7px}}
+.cubeWaypoint .item-thumbnail{background:#edf0de;border-color:#d8dfc1;color:#9aab7b}
+body.cube-level .hint-content{font-size:10px;line-height:1.7;max-height:50%;overflow:auto}
+body.cube-level .world-label{font-size:9px;padding:4px 7px}
+@media(max-width:850px){.cube-controls{margin:0 0 7px;padding:6px 7px}.cube-face-buttons{gap:4px}.cube-face-buttons button{padding:6px 9px;font-size:9px;gap:4px}.cube-control-note{font-size:8px;margin-top:5px}.cube-control-note button{font-size:8px;padding:2px 5px}.cube-status{margin-top:7px;padding:6px}.cube-status>div:first-child{font-size:8px;gap:2px}.cube-status b{font-size:10px}.cube-progress-faces{gap:3px;margin-top:6px}.cube-progress-faces button{padding:4px;font-size:8px;gap:2px}.cube-progress-faces small{font-size:7px}body.cube-level .journey-card .steps{margin:8px 0}}
+@media(max-width:500px){.cube-face-buttons button{padding:5px 7px;font-size:9px}.cube-face-buttons #cube-guide{width:21px;height:21px}.cube-control-note p{font-size:7px;max-width:210px}.cube-control-note button{font-size:7px}.cube-status{padding:5px}.cube-progress-faces{grid-template-columns:repeat(3,minmax(0,1fr));gap:2px}.cube-progress-faces button{font-size:7px;padding:4px 2px}.cube-progress-faces small{font-size:6px}body.cube-level .hint-content{font-size:9px;line-height:1.6}}

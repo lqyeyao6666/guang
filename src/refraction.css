@@ -1,0 +1,36 @@
+.refraction-status { margin: 10px 0 12px; padding: 12px; border: 1px solid #c9e1e9; border-radius: 13px; background: #f1faff; color: #668899; }
+.refraction-status > div { display: flex; justify-content: space-between; gap: 10px; padding: 5px 0; font-size: 11px; }
+.refraction-status b { font-weight: 500; }
+.refraction-status span { color: #628d82; }
+.refraction-status p { margin: 7px 0 0; font-size: 10px; line-height: 1.7; color: #91a4af; }
+.refraction-level .inventory-instruction { font-size: 11px; line-height: 1.6; }
+.refraction-level .world-label { font-size: 10px; }
+.refraction-level .rail-label { padding: 2px 5px; border-color: #9bbacb; background: #edf9ffea; color: #567f96; }
+.refraction-level .steps { font-size: 10px; }
+.refraction-level .inventory-items { flex-shrink: 0; }
+.refraction-level.compact-inventory .inventory-row { flex-wrap: nowrap; min-height: 46px; padding: 6px; gap: 5px; }
+.refraction-level.compact-inventory .inventory-count { width: auto; flex-shrink: 0; margin-left: auto; font-size: 8px; }
+.refraction-level.compact-inventory .inventory-count b { font-size: 14px; }
+.refraction-level.compact-inventory .inventory-name { min-width: 0; }
+.refraction-level.compact-inventory .inventory-name strong { font-size: 9px; white-space: normal; }
+.refraction-level.compact-inventory .inventory-name small { font-size: 7px; }
+@media (max-height: 850px) and (min-width: 851px) {
+  .refraction-level .inventory-card { flex-shrink: 0; min-height: 220px; padding: 11px 13px; }
+  .refraction-level.compact-inventory .inventory-row { min-height: 40px; padding: 4px; }
+  .refraction-level .return-zone { min-height: 30px; margin-top: 8px; }
+}
+@media (max-height: 800px) and (min-width: 761px) {
+  .refraction-level .refraction-status { padding: 7px 10px; margin: 7px 0; }
+  .refraction-level .refraction-status > div { padding: 3px 0; font-size: 10px; }
+  .refraction-level .refraction-status p { display: none; }
+}
+@media (max-width: 850px) {
+  .refraction-level .refraction-status { padding: 7px; margin: 5px 0; }
+  .refraction-level .refraction-status > div { padding: 3px 0; font-size: 9px; gap: 3px; }
+  .refraction-level .refraction-status b { flex-shrink: 0; white-space: nowrap; }
+  .refraction-level .refraction-status span { font-size: 8px; text-align: right; }
+  .refraction-level .journey-card .tiny-count { white-space: nowrap; }
+  .refraction-level .refraction-status p, .refraction-level .steps { display: none; }
+  .refraction-level .journey-card h3 { font-size: 10px; }
+  .refraction-level .world-label { font-size: 8px; }
+}
